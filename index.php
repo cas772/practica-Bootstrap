@@ -7,25 +7,50 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
+<div class="container-sm" >
     <div class="row">
-    <div class="col-md-12 text-primary --bs-warning" style="background-color:#f00">
+    <div class="col-md-12">
     <header>
-        <h1>MAQUETACIÓN CON BOOTSTRAP</h1>
+        <h1 class="text-center p-3">Lista de Estudiantes</h1>
     </header>
+    </div>
+    </div>
     <div class="row">
-      <div class="col-xl-4"  style="background-color:#f00">
-        <h1>Columna 1</h1> 
-        <p>Esto es una prueba de bootstrap en xl.</p>
+    <div class="col-md-12">
+    <div class="row">
+      <div class="col-xl-6">
+         <div class="row">
+         <div class="col-xl-12"  style="background-color:white">
+          <h2 class="text-center">Nuevo Estudiante</h2>
+         </div>
+         </div>
+         <div class="row">
+         <div class="col-xl-12">
+            <form action="" method="post">
+              <input class="form-control mt-2 border border-black" type="text" name="nombre" id="">
+              <input class="form-control mt-2 border border-black" type="text" name="apellido" id="">
+              <input class="form-control mt-2 border border-black" type="number" name="edad" id="">
+              <input class="form-control mt-2 border border-black" type="email" name="correo" id="">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <input class="btn btn-secondary m-2 me-md-2" type="submit" value="Cargar">
+              </div>
+            </form> 
+        </div>
+        </div>
       </div>
-      <div class="col-xl-4"  style="background-color:#0f0">
-        <h1>Columna 2</h1> 
-        <p>Esto es una prueba de bootstrap en xl.</p>
+      <div class="col-xl-6"  style="background-color:#0f0">
+      <div class="row">
+         <div class="col-xl-12"  style="background-color:yellow">
+          <p>buscar estudiante</p>
+         </div>
+         </div>
+         <div class="row">
+         <div class="col-xl-12"  style="background-color:white">
+        <p>mostrar</p> 
+        </div>
+        </div>
       </div>
-      <div class="col-xl-4"  style="background-color:#00f">
-        <h1>Columna 3</h1> 
-        <p>Esto es una prueba de bootstrap en xl.</p>
-      </div>
+    </div>
     </div>
     </div>
     <section></section>
