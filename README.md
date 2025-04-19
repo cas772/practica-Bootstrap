@@ -1,0 +1,1 @@
+Frontend for students administration, this page has a form and a table where we can see list of students, in this path we can find a text box for search a student. We make this project whit HTML, CSS, Javascript and Bootstrap.
